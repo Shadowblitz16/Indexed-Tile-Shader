@@ -15,3 +15,5 @@ uniform int    imgR;  //The image rotation from 0 being 0 and 3 being 270
 uniform bool   imgFX; //The image x flip  
 uniform bool   imgFY; //The image y flip
 ```
+
+Make sure you draw a white quad as big as you need your image.
