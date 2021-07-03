@@ -12,7 +12,7 @@ uniform bool   imgFY = false;
 
 vec2 transformUV(vec2 uv, int r, bool fx, bool fy)
 {
-    float _dir = float(r)*pi/180.0;//float((rotation*90)%360)*pi/180.0;
+    float _dir = float(int(r * 90))*pi/180.0;
     float _sin = sin(_dir);
     float _cos = cos(_dir);
     vec2  _piv = vec2(0.5, 0.5);
