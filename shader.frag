@@ -1,12 +1,12 @@
 const float pi = 3.1415926538;
 
-uniform vec3[] pal   = vec3[4](vec3(1,0,0),vec3(0,1,0),vec3(0,0,1),vec3(1,1,1));
-uniform int [] img   = int [4](0,1,2,3);
-uniform int    imgW  = 2;
-uniform int    imgH  = 2;
-uniform int    imgR  = 0;
-uniform bool   imgFX = false;
-uniform bool   imgFY = false;
+uniform vec3[] pal;
+uniform int [] img;
+uniform int    imgW;
+uniform int    imgH;
+uniform int    imgR;
+uniform bool   imgFX;
+uniform bool   imgFY;
 
 
 
